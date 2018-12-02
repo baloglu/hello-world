@@ -1,9 +1,6 @@
-*{
-  margin:2px;
-}
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Open+Sans|Lora|Merriweather:300" rel="stylesheet');
 
-body{
-  
+main{
   display: flex;
   width:98vw;
   flex-direction: column;
@@ -12,7 +9,11 @@ body{
   flex-wrap: wrap;
 }
 
-nav {
+*{
+  margin:2px;
+}
+
+nav.nav_container {
   display: flex;
   width:98vw;
   flex-direction: column;
@@ -53,6 +54,7 @@ li.nav_items{
   cursor: pointer;
   border: 1px solid green;
 }
+
 header {
   text-transform: uppercase;
   text-align: center;
@@ -62,18 +64,20 @@ header {
   border-radius: 15px;
   
 }
+
 section{
   width: 98vw;
 /*  background-color: rgb(0,128,128,0.3);*/
   border-radius: 15px;
-
 }
+
 @media (min-width: 900px) {
   section{
   display: flex;
   justify-content: space-around;
   }
 }
+
 aside.main_image{
   border: 2px;
   margin: 5px;
