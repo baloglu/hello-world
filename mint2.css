@@ -58,7 +58,7 @@ main{
 .main_header {
   text-transform: uppercase;
   text-align: center;
-  font-family: "Open Sans";
+  font-family: "Lora";
   font-size:2em;
   background-color: rgb(0,128,128,0.3);
   border-radius: 15px;
@@ -71,8 +71,8 @@ main{
   border-radius: 15px;
 }
 
-@media (min-width: 1200px) {
-  .container{
+@media (min-width: 900px) {
+  section.container{
   display: flex;
   justify-content: space-around;
   }
