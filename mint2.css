@@ -115,7 +115,6 @@ main{
 .best{
   border: 2px dashed green;
   border-radius: 5px 25px;
-  height: 75vh;
   justify-content:space-around;
 } 
 
