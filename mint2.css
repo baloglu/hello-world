@@ -71,8 +71,8 @@ main{
   border-radius: 15px;
 }
 
-@media (min-width: 900px) {
-  .container, .best_selling{
+@media (min-width: 1200px) {
+  .container{
   display: flex;
   justify-content: space-around;
   }
