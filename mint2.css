@@ -23,7 +23,7 @@ main{
   border-radius: 15px;
  }
 
-.logo{
+.nav_container .logo{
   width: 98vw;
   color:white;
   font-family:'Faster One', cursive;
@@ -32,7 +32,7 @@ main{
   justify-content: space-around;
 }
 
-.top_nav{
+.nav_container .top_nav{
   width: 98vw;
   background-color: rgb(255,255,0,0.6);
   text-transform: uppercase;
@@ -40,18 +40,18 @@ main{
 	padding: 1px;
 }
 
-.bottom_nav{
+.nav_container .bottom_nav{
   width:98vw;
 }
 
-.top_nav_ul, .bottom_nav_ul, .best_ul{
+.nav_container .top_nav_ul, .bottom_nav_ul, .best_ul{
   list-style-type:none;
   display: flex;
   justify-content: space-around;
   flex-wrap:wrap;
 }
 
-.nav_items{
+.nav_container .nav_items{
   justify-content: space-between;
   cursor: pointer;
   border: 1px solid green;
