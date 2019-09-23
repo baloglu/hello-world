@@ -92,6 +92,8 @@ main{
 
 .main_content{
   border: 1px dashed teal;
+  margin: 5px;
+  padding: 5px;
   
 }
 
