@@ -69,6 +69,7 @@ main{
 
 .container, .best_selling{
   width: 98vw;
+  display:flex;
 /*  background-color: rgb(0,128,128,0.3);*/
   border-radius: 15px;
 }
@@ -85,7 +86,6 @@ main{
   margin: 2px;
   border-radius: 15px;
   background-color: white;
-  display:flex;
   flex-direction: column;
   justify-content:space-around;
 }
