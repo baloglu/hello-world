@@ -124,3 +124,33 @@ main{
 	transition: all 0.5s ease-in 0.2s;
 	text-decoration: none !important;
 }
+
+input { display: none; }
+input + label { display: inline-block }
+
+input ~ .tab { display: none }
+#tab1:checked ~ .tab.aboutUsTab,
+#tab2:checked ~ .tab.paymentTab,
+#tab3:checked ~ .tab.returnsTab,
+#tab4:checked ~ .tab.deliveryTab,
+#tab5:checked ~ .tab.faqTab { 
+  display: block; 
+  }
+
+input + label {
+  border: 1px solid #999;
+  background: #EEE;
+  padding: 4px 12px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  top: 1px;
+}
+input:checked + label {
+  background: #FFF;
+  border-bottom: 1px solid transparent;
+}
+input ~ .tab {
+  border-top: 1px solid #999;
+  padding: 16px;
+  font-family: "Lora";
+}
